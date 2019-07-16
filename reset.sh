@@ -11,3 +11,15 @@ rm -rf ./nodes/9
 rm -rf ./nodes/10
 rm -rf ./nodes/11
 rm -rf ./nodes/12
+rm -rf ./nodes/13
+rm -rf ./nodes/14
+rm -rf ./nodes/15
+rm -rf ./nodes/16
+rm -rf ./nodes/17
+rm -rf ./nodes/18
+rm -rf ./nodes/19
+rm -rf ./nodes/20
+rm -rf ./nodes/21
+rm -rf ./nodes/22
+rm -rf ./nodes/23
+rm -rf ./nodes/24
