@@ -12,7 +12,7 @@ export $(cat .env | xargs)
 Bin_NAME=XDC
 
 WORK_DIR=$PWD
-PROJECT_DIR="~/xinfin/Local_XDPoS_TestNet_Apothem"
+PROJECT_DIR="/home/sotatek/xinfin/Local_XDPoS_TestNet_Apothem"
 cd $PROJECT_DIR && make all
 cd $WORK_DIR
 
@@ -107,7 +107,7 @@ VERBOSITY=3
 GASPRICE="1"
 
 echo Starting the bootnode ...
-${PROJECT_DIR}/build/bin/bootnode -nodekey ./bootnode.key --addr 0.0.0.0:30301 &
+${PROJECT_DIR}/build/bin/bootnode -nodekey ./bootnode.key --addr 192.168.1.207:30301 &
 child_proc=$! 
 
 echo Starting the nodes ...
